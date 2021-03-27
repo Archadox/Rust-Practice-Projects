@@ -1,7 +1,7 @@
 use std::io; //le import
 
 fn main() { //the main function of the code
-	println!("Type \"Burger\" or \"burger\""); //tells the user what to type
+	println!("Type \"Burger\" or \"burger\", then Enter"); //tells the user what to type
 	let mut input = String::new(); //creates the varable to save user input to
 	io::stdin() 
 	    .read_line(&mut input) //read the input of the user and saves it to the "input" variable
