@@ -1,5 +1,4 @@
 use std::io;
-//use text_io::read;
 
 fn main() {
 	println!("Type \"Burger\" or \"burger\"");
